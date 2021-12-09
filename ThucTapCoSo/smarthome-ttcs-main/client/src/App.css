@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-align:center;
+    background:#073294;
+    color:#fff;
+  }
+h1{
+  font-family:'Courier New', Courier, monospace;
+}
+.main{
+  margin:0 10%;
+  background:#fff;
+  min-height:300px;
+}
+#root{
+  background:#fff;
+  text-align:center;
+  color:#00467F;
+  padding:10px;
+  display:flex; 
+  flex-wrap: wrap;
+  justify-content:center;
+  border-radius:5px;
+  }
+.container{
+  background:#fff;
+  text-align:center;
+  color:#00467F;
+  padding:10px;
+  display:flex; 
+  flex-wrap: wrap;
+  justify-content:center;
+  border-radius:5px;
+  
+    }
+.submain-relay{
+  width:150px;
+  margin:0 10px;
+  box-shadow:-1px 1px 3px 2px #D8D8D8;
+  height:110px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#F2F2F2;
+  }
+.sub-main{
+    width:90%;
+    background:#BDBDBD;
+    border-radius:10px;
+    height:40px;
+    /* z-index:-1; */
+    text-align:center;
+    position: relative;
+    margin:0 5px;
+  }
+.off{
+    background:#0101DF;
+    width:50%;
+    height:100%;
+    border-radius:10px;
+    position: relative;
+    transition:0.1s ease-out;
+    color:#fff;
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    left:0;
+    right:50%;
+  }
+.on{
+  background:#0101DF;
+  width:50%;
+  height:100%;
+  border-radius:10px;
+  position: relative;
+  transition:0.1s ease-out;
+  color:#fff;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  left:50%;
+}
+  
+.submain-status{
+    width:150px;
+    margin:0 10px;
+    box-shadow:-1px 1px 3px 2px #D8D8D8;
+    height:110px;
+    align-items:center;
+    background:#F2F2F2;
+}
+h4{
+    margin-top:1%;
+    color:#848484;
+    font-size:14px;
+    height:5%;
+}
+.status-on{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin:0 auto;
+    margin-bottom:5%;
+    background-image:radial-gradient(circle,#fff 2%,#2E64FE 30%,#2E2EFE 70%);
+}
+.status-off{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  margin:0 auto;
+  margin-bottom:5%;
+  background-image:radial-gradient(circle,#fff 2%,#CECEF6 30%,#A9A9F5 70%);
+}
